@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sarah Chen - Full Stack Developer Portfolio showcasing web development projects and professional experience">
+    <title>Sarah Chen - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="navbar">
+            <div class="logo">SC</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Sarah Chen</h1>
+                <h2>Full Stack Developer</h2>
+                <p class="tagline">Building scalable web solutions that make a difference</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Get in Touch</a>
+                    <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/sarahchen" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sarahchen-dev" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Passionate full-stack developer with 5 years of experience building scalable web applications. Specializing in React, Node.js, and cloud architecture. Currently focused on creating accessible and performant web solutions that make a difference.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Senior Full Stack Developer</h3>
+                            <h4>TechFlow Solutions</h4>
+                            <p class="date">January 2021 - Present</p>
+                            <ul>
+                                <li>Lead development of company's flagship SaaS platform serving 100k+ users</li>
+                                <li>Reduced page load time by 60% through optimization</li>
+                                <li>Implemented CI/CD pipeline reducing deployment time by 75%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Full Stack Developer</h3>
+                            <h4>StartUp Innovations</h4>
+                            <p class="date">June 2019 - December 2020</p>
+                            <ul>
+                                <li>Developed responsive web applications using React and Express</li>
+                                <li>Built authentication system supporting 50k+ users</li>
+                                <li>Received Best New Employee Award 2019</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/ecotrack-dashboard.png" alt="EcoTrack Dashboard" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>EcoTrack</h3>
+                            <p>A full-stack application that helps users track and reduce their carbon footprint through daily activities monitoring and personalized recommendations.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <a href="https://github.com/sarahchen-dev/ecotrack" class="btn secondary" target="_blank" rel="noopener noreferrer">View Project</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/devmentor-matching.png" alt="DevMentor Matching" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>DevMentor</h3>
+                            <p>An AI-powered platform matching junior developers with senior mentors based on skills and career goals.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                            <a href="https://github.com/sarahchen-dev/devmentor" class="btn secondary" target="_blank" rel="noopener noreferrer">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sarah.chen@email.com">sarah.chen@email.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sarah Chen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
